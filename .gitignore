@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Node modules (if any future tooling)
+node_modules/
+
+# Image placeholders
+images/hero-photo.jpg
+images/about-photo.jpg
+images/press/ 
