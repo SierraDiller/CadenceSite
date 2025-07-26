@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadence Gates | Portfolio</title>
-  <meta name="description" content="Portfolio website for actress Cadence Gates.">
+  <title>Cadence Gates | About</title>
+  <meta name="description" content="About actress Cadence Gates.">
   <meta name="keywords" content="Cadence Gates, actress, performer, portfolio, theater, film, media">
   <meta name="author" content="Cadence Gates">
-  <meta property="og:title" content="Cadence Gates | Portfolio">
-  <meta property="og:description" content="Portfolio website for actress Cadence Gates.">
+  <meta property="og:title" content="Cadence Gates | About">
+  <meta property="og:description" content="About actress Cadence Gates.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/images/og-image.jpg">
   <meta property="og:url" content="https://cadencegates.com">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="about-page">
   <!-- Header / Navigation -->
-  <header role="banner" class="main-page-header">
+  <header role="banner" class="mini-hero-page">
     <nav role="navigation" aria-label="Main Navigation" class="main-nav">
       <div class="nav-logo" aria-label="Cadence Gates Logo">Cadence Gates</div>
       <ul class="nav-links">
-        <li><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
         <li><a href="theater.html" class="nav-link">Work</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="about.html" class="nav-link" aria-current="page">About</a></li>
         <li><a href="media.html" class="nav-link">Media</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
@@ -32,22 +32,28 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero-section" aria-label="Home">
-    <div class="hero-bg">
-      <video class="hero-video" autoplay muted loop playsinline poster="/images/hero-fallback.jpg" aria-hidden="true">
-        <source src="https://static.videezy.com/system/resources/previews/000/000/168/original/Record.mp4" type="video/mp4">
-        <!-- Theater stage lighting video -->
-        <!-- Fallback image if video fails -->
-      </video>
+  <!-- Mini Hero Section -->
+  <section class="mini-hero-section" aria-label="About Hero">
+    <div class="mini-hero-bg">
+      <img src="/images/cadence-on-stage.jpg" alt="Cadence Gates performing on stage" class="mini-hero-image" />
+      <div class="mini-hero-overlay"></div>
     </div>
-    <div class="hero-content container">
-      <h1 class="hero-title">Cadence Gates</h1>
-      <p class="hero-subtitle">Actress & Performer</p>
-      <a href="theater.html" class="hero-cta" role="button">View Work</a>
+    <div class="mini-hero-content container">
+      <h1 class="mini-hero-title">About</h1>
+      <p class="mini-hero-subtitle">Actress & Performer</p>
     </div>
-    <div class="scroll-indicator" aria-hidden="true">
-      <span class="scroll-dot"></span>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section" aria-label="About Cadence Gates">
+    <div class="container about-container">
+      <div class="about-photo">
+        <div class="about-photo-card">Cadence Photo</div>
+      </div>
+      <div class="about-bio">
+        <h2 class="section-title">About</h2>
+        <p class="about-bio-paragraph">All about the fabulous Miss Gates</p>
+      </div>
     </div>
   </section>
 
